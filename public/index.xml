@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/doudouu0504blog/posts/my-first-post/</guid>
       <description>&lt;p&gt;再次測試 我很棒&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>second</title>
+      <link>http://localhost:1313/doudouu0504blog/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89/</link>
+      <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
+      <guid>http://localhost:1313/doudouu0504blog/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89/</guid>
+      <description>&lt;p&gt;應該是可以中文&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
