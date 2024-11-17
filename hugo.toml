@@ -3,3 +3,7 @@ languageCode = "en-us"
 title = "小瑜的部落格"
 theme = "ananke"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
