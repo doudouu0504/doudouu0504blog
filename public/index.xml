@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/doudouu0504blog/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89/</guid>
       <description>&lt;p&gt;應該是可以中文&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>second test</title>
+      <link>http://localhost:1313/doudouu0504blog/posts/second/</link>
+      <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
+      <guid>http://localhost:1313/doudouu0504blog/posts/second/</guid>
+      <description>&lt;p&gt;再次測試測試測試&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
