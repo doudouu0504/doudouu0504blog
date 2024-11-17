@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My Hugo Site</title>
+    <title>Posts on 小瑜的部落格</title>
     <link>http://localhost:1313/doudouu0504blog/posts/</link>
-    <description>Recent content in Posts on My Hugo Site</description>
+    <description>Recent content in Posts on 小瑜的部落格</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 17:46:17 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 18:46:07 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/doudouu0504blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>測試從這邊有沒有</title>
+      <link>http://localhost:1313/doudouu0504blog/posts/%E5%86%8D%E6%B8%AC%E8%A9%A6%E7%9C%8B%E7%9C%8B%E6%9C%89%E6%B2%92%E6%9C%89/</link>
+      <pubDate>Sun, 17 Nov 2024 18:46:07 +0800</pubDate>
+      <guid>http://localhost:1313/doudouu0504blog/posts/%E5%86%8D%E6%B8%AC%E8%A9%A6%E7%9C%8B%E7%9C%8B%E6%9C%89%E6%B2%92%E6%9C%89/</guid>
+      <description>&lt;p&gt;拜託了&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>測試測試</title>
+      <link>http://localhost:1313/doudouu0504blog/posts/%E6%B8%AC%E8%A9%A6%E6%B8%AC%E8%A9%A6/</link>
+      <pubDate>Sun, 17 Nov 2024 18:46:07 +0800</pubDate>
+      <guid>http://localhost:1313/doudouu0504blog/posts/%E6%B8%AC%E8%A9%A6%E6%B8%AC%E8%A9%A6/</guid>
+      <description>&lt;p&gt;測試看看有沒有自動更新&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/doudouu0504blog/posts/my-first-post/</link>
