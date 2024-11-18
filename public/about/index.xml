@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 小瑜的部落格</title>
+    <link>http://localhost:1313/doudouu0504blog/about/</link>
+    <description>Recent content in Abouts on 小瑜的部落格</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2024 17:46:17 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/doudouu0504blog/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about this blog</title>
+      <link>http://localhost:1313/doudouu0504blog/about/about/</link>
+      <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
+      <guid>http://localhost:1313/doudouu0504blog/about/about/</guid>
+      <description>&lt;h1 style=&#34;color:#9B90C2&#34;&gt;&lt;em&gt;hi！我是小瑜&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;img src=&#34;https://i.ibb.co/K6TNtY5/20211002-DOU02625.jpg&#34; alt=&#34;me&#34; width=&#34;400&#34;&gt;&#xA;&lt;h3 style=&#34;color:#91B493&#34;&gt;&lt;strong&gt;歡迎來到我的部落格◍•ᴗ•◍ &lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;這邊主要分享一些旅遊、美食、網頁學習等內容，歡迎找我合作！&lt;/p&gt;&#xA;&lt;p style=&#34;color:#9B90C2 ; text-decoration:underline;&#34; &gt;&lt;a href=&#34;#me&#34;&gt;&lt;em&gt;以下是我的簡介&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

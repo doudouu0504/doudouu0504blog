@@ -3,7 +3,28 @@ languageCode = "en-us"
 title = "小瑜的部落格"
 theme = "ananke"
 
-[markup]
+[markup] #這個是處理html的內容
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
+[menu] #這個是navbar的連結
+  [[menu.main]]
+    name = "Profile"
+    url = "/profile/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+    [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 4
+
+
+

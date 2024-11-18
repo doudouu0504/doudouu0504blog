@@ -23,25 +23,11 @@
       <description>&lt;h3 style=&#34;color:#91B493&#34;&gt;&lt;strong&gt;環境安裝內容 &lt;/strong&gt;&lt;/h3&gt;&#xA;進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。</description>
     </item>
     <item>
-      <title>about this blog</title>
-      <link>http://localhost:1313/doudouu0504blog/posts/second/</link>
-      <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
-      <guid>http://localhost:1313/doudouu0504blog/posts/second/</guid>
-      <description>&lt;h1 style=&#34;color:#9B90C2&#34;&gt;&lt;em&gt;hi！我是小瑜&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;img src=&#34;https://i.ibb.co/K6TNtY5/20211002-DOU02625.jpg&#34; alt=&#34;me&#34; width=&#34;400&#34;&gt;&#xA;&lt;h3 style=&#34;color:#91B493&#34;&gt;&lt;strong&gt;歡迎來到我的部落格◍•ᴗ•◍ &lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;這邊主要分享一些旅遊、美食、網頁學習等內容，歡迎找我合作！&lt;/p&gt;&#xA;&lt;p style=&#34;color:#9B90C2 ; text-decoration:underline;&#34; &gt;&lt;a href=&#34;#me&#34;&gt;&lt;em&gt;以下是我的簡介&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>My First Post</title>
       <link>http://localhost:1313/doudouu0504blog/posts/my-first-post/</link>
       <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
       <guid>http://localhost:1313/doudouu0504blog/posts/my-first-post/</guid>
       <description>&lt;p&gt;再次測試 我很棒&#xA;&lt;img src=&#34;https://fakeimg.pl/350x200/?text=Hello&#34; alt=&#34;替代文字&#34; width=&#34;500&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>second</title>
-      <link>http://localhost:1313/doudouu0504blog/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89/</link>
-      <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
-      <guid>http://localhost:1313/doudouu0504blog/posts/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89/</guid>
-      <description>&lt;p&gt;應該是可以中文&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
