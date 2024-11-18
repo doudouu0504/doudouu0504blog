@@ -22,10 +22,19 @@ title = 'about this blog'
     <li>食物攝影</li>
     <li>商品攝影</li>
 </ul>
-<p>二、動態攝影：（動態攝影師為BUKUN）</p>
+<p>二、動態攝影：</p>
+<p>（動態攝影師為BUKUN）</p>
 <ul>
     <li>婚禮錄影</li>
     <li>ＭＶ</li>
     <li>廣告拍攝</li>
     <li>短影音拍攝</li>
+</ul>
+<h3 ><span style="background-color:#9B90C2; color:;">學習內容:</span></h3>
+<ul>
+    <li>Html</li>
+    <li>Css</li>
+    <li>JavaScript</li>
+    <li>Vue</li>
+    <li>Python</li>
 </ul>
