@@ -6,7 +6,7 @@
     
     <title>環境安裝-踏入python第一步 | 小瑜的部落格</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="環境安裝內容 
+    <meta name="description" content="內容提及:REPL、pyenv、Vscode、venv、poetry
 進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
     <meta name="generator" content="Hugo 0.138.0">
     
@@ -37,7 +37,8 @@
     <meta property="og:url" content="http://localhost:1313/doudouu0504blog/posts/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D-%E8%B8%8F%E5%85%A5python%E7%AC%AC%E4%B8%80%E6%AD%A5/">
   <meta property="og:site_name" content="小瑜的部落格">
   <meta property="og:title" content="環境安裝-踏入python第一步">
-  <meta property="og:description" content="環境安裝內容 進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
+  <meta property="og:description" content="內容提及:REPL、pyenv、Vscode、venv、poetry
+進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -45,13 +46,15 @@
     <meta property="article:modified_time" content="2024-11-17T18:46:07+08:00">
 
   <meta itemprop="name" content="環境安裝-踏入python第一步">
-  <meta itemprop="description" content="環境安裝內容 進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
+  <meta itemprop="description" content="內容提及:REPL、pyenv、Vscode、venv、poetry
+進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
   <meta itemprop="datePublished" content="2024-11-17T18:46:07+08:00">
   <meta itemprop="dateModified" content="2024-11-17T18:46:07+08:00">
-  <meta itemprop="wordCount" content="24">
+  <meta itemprop="wordCount" content="235">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="環境安裝-踏入python第一步">
-  <meta name="twitter:description" content="環境安裝內容 進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
+  <meta name="twitter:description" content="內容提及:REPL、pyenv、Vscode、venv、poetry
+進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。">
 
 	
 
@@ -132,22 +135,112 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h3 style="color:#91B493"><strong>環境安裝內容 </strong></h3>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p style="color:#91B493"><strong>內容提及:</strong>REPL、pyenv、Vscode、venv、poetry</p>
 進入python領域之前，可以先把套件安裝下載後學習，就可邊學習邊實作練習。
-<p style="color:#9B90C2">一、到網站上找 Python，安裝完後進行下一步</p>
+<hr>
+<p>（以下是使用mac筆電）</p>
+<h3 style="">一、到網站上找 Python，安裝完後進行下一步</h3>
 <p>在內建開終端機並輸入以下內容:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>which python3 <span style="color:#75715e">#可以看位置</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span>python3 <span style="color:#75715e">#此時會出現&gt;&gt;&gt;，這是一個REPL環境</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">、</span>exit() <span style="color:#f92672">or</span> 按control<span style="color:#f92672">+</span>d <span style="color:#75715e">#可以離開環境</span>
-</span></span></code></pre></div><p style="color:#9B90C2">二、了解何謂 REPL</p>
+</span></span></code></pre></div><h3 style="">二、了解何謂 REPL</h3>
 <p><strong>REPL</strong>(Read-Eval-Print-Loop):</p>
 <p>在這個環境底下會<span style="color:red">讀取</span>輸入的指令，然後<span style="color:red">評估</span>是否可執行。</p>
 <p>如果可以就把結果<span style="color:red">印出來</span>，不行就會出現錯誤的訊息。</p>
 <p>最後不管能不能執行，都會進入下一個<span style="color:red">指令</span>的迴圈。</p>
 <p>（適合跑簡單的程式）</p>
-<p style="color:#9B90C2">三、安裝pyenv</p>
-<p>pyenv是什麼：是一個可以讓同一台電腦裡面，安裝不同版本的python的工具。</p>
-<a href="https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv" target="blank">安裝方式參考</a><ul class="pa0">
+<h3 style="">三、安裝pyenv</h3>
+<p>pyenv是什麼：是一個工具箱，可以讓同一台電腦裡面，安裝不同版本的python的工具。</p>
+<a href="https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv" target="blank">安裝方式參考</a>
+<p>在終端機輸入以下內容，並分別為：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>which pyenv <span style="color:#75715e">#看pyenv的位置</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv <span style="color:#75715e">#出現指令</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv <span style="color:#f92672">-</span>v <span style="color:#75715e">#出現版本</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv versions <span style="color:#75715e">#列出透過pyenv安裝的python版本</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv install <span style="color:#f92672">--</span>list <span style="color:#75715e">#列出所支援的內容</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv install <span style="color:#ae81ff">3.12.4</span> <span style="color:#75715e">#下載版本，可下載最新的</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv <span style="color:#66d9ef">global</span> <span style="color:#ae81ff">3.12.4</span> <span style="color:#75715e">#可以改成預設值，此時就可以隨意打python不用加3</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">8</span><span style="color:#960050;background-color:#1e0010">、</span>pyenv shell <span style="color:#ae81ff">3.12.4</span> <span style="color:#75715e">#若沒改成預設值，可以用叫的叫出這個版本</span>
+</span></span></code></pre></div><h3 style="">四、安裝Vscode</h3>
+<p>常用快捷鍵：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>Command<span style="color:#f92672">+</span>Shift<span style="color:#f92672">+</span>P <span style="color:#75715e">#輸入指令</span>
+</span></span><span style="display:flex;"><span>Control<span style="color:#f92672">+</span>backtick <span style="color:#75715e">#開啟終端機</span>
+</span></span><span style="display:flex;"><span>Command<span style="color:#f92672">+</span>D <span style="color:#75715e">#往下選取</span>
+</span></span><span style="display:flex;"><span>Option<span style="color:#f92672">+</span>Shift<span style="color:#f92672">+</span>往下按鍵 <span style="color:#75715e">#複製整行</span>
+</span></span><span style="display:flex;"><span>直接再游標那行按複製 <span style="color:#75715e">#可貼上到任一游標處</span>
+</span></span><span style="display:flex;"><span>Option<span style="color:#f92672">+</span>游標處<span style="color:#960050;background-color:#1e0010">＋</span>上下鍵 <span style="color:#75715e">#可移動整行</span>
+</span></span><span style="display:flex;"><span>Command<span style="color:#f92672">+/</span> <span style="color:#75715e">#快速註解</span>
+</span></span></code></pre></div><h3 style="">五、第一個程式如何開始</h3>
+<p>在創建資料夾後...</p>
+<p>1、內建終端機執行python，輸入：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>cd <span style="color:#75715e">#拉取資料夾進來，並按enter</span>
+</span></span><span style="display:flex;"><span>ls <span style="color:#f92672">-</span>al <span style="color:#75715e">#可查看資料夾內容</span>
+</span></span><span style="display:flex;"><span>python3 <span style="color:#f92672">+</span> 檔名 <span style="color:#75715e">#例如：python3 hi.py</span>
+</span></span></code></pre></div><p>2、Vscode終端機執行</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>拉取資料夾進來
+</span></span><span style="display:flex;"><span>pwd <span style="color:#75715e">#印出目前位置(print working directory)，確認在對的資料夾</span>
+</span></span><span style="display:flex;"><span>python3 <span style="color:#f92672">+</span> 檔名 <span style="color:#75715e">#例如：python3 hi.py</span>
+</span></span></code></pre></div><h3 style="">六、在Vscode做文字註解</h3>
+<p><span style="background-color:rgb(0,0,0,0.1)">#</span> >>> 後面可以接描述</p>
+<p><span style="background-color:rgb(0,0,0,0.1)">Command + / </span>>>>可以快速選取的範圍註解</p>
+<h3 style="">七、安裝套件</h3>
+<p>之後做專案，要安裝套件可以這麼做：</p>
+<p>先到<a href="https://pypi.org/" target="_blank">PyPI</a>的網站，利如要下載request套件，搜尋request。</p>
+<p>複製<span style="background-color:rgb(0,0,0,0.1)">pip install request</span>，
+到Vscode的console打<span style="background-color:rgb(0,0,0,0.1)">pip3</span>，並安裝。</p>
+<p>輸入：<span style="background-color:rgb(0,0,0,0.1)">pip install request</span>，就安裝成功。</p>
+<p>卸載套件輸入：<span style="background-color:rgb(0,0,0,0.1)">pip uninstall request</span><br>(但不會全部刪掉，會有混雜的套件留存，造成空間浪費)</p>
+<p>可以輸入：<span style="background-color:rgb(0,0,0,0.1)">pip list</span>看空間內容。</p>
+<h3 style="">八、虛擬環境venv</h3>
+<p>目的：不會影響其他專案，因為同樣套件只能安裝一個版本，所以沒加會覆蓋。</p>
+<p>指令如何下(在Vscode，有兩種方式)：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>python <span style="color:#f92672">-</span>m venv kitty
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#-m是指載入，venv是內建虛擬模組，kitty是自己取的虛擬環境名字</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span>python <span style="color:#f92672">-</span>m venv kitty <span style="color:#f92672">--</span>prompt<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hello&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#如同上述，不過這行--prompt=&#34;自己取名字&#34;，為Vscode開啟終端機時「名稱」會變hello</span>
+</span></span></code></pre></div><p>啟用虛擬環境，輸入以下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>python <span style="color:#f92672">-</span>m venv kitty
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#在Vscode開啟終端機，輸入以上載入虛擬環境</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span>source kitty<span style="color:#f92672">/</span>bin<span style="color:#f92672">/</span>activate
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#左側會出現一個kitty資料夾，裡面有一些資料夾，在使用虛擬環境時，不太管它。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#但啟動虛擬環境，裡面有一個bin資料夾，底下有activate，執行輸入以上</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">、</span>pip install django
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#安裝套件輸入上述(不會滲透出去，例如安裝django)</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">、</span>pip list
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#若要看內容，領域展開，輸入以上</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#960050;background-color:#1e0010">、</span>pip freeze <span style="color:#75715e">#會出現已經安裝的套件及指定版本，而輸出成文字檔可打：</span>
+</span></span><span style="display:flex;"><span>pip freeze <span style="color:#f92672">&gt;</span> requirements<span style="color:#f92672">.</span>txt <span style="color:#75715e">#之後會出現在左側，這是套件列表。</span>
+</span></span><span style="display:flex;"><span>pip install <span style="color:#f92672">-</span>r requirements<span style="color:#f92672">.</span>txt <span style="color:#75715e">#若要呼叫列表時輸入</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">、</span>deactivate <span style="color:#75715e">#離開環境時輸入</span>
+</span></span></code></pre></div><h3 style="">九、虛擬環境poetry</h3>
+<p>目的：可安裝並管理套件版本、打包、發布套件功能。</p>
+<p>可以到poetry網站看下載教學，下載流程輸入：<span style="background-color:rgb(0,0,0,0.1)">pip install poetry</span></p>
+<p>指令如何下(在Vscode，有兩種方式)：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>poetry new kitty
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#在Vscode終端機輸入以上，就會長出資料夾，kitty是自己取的虛擬環境命字</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span><span style="color:#75715e">#先在Vscode自己建立一個資料夾(例如：hello)，並依照下列方式：</span>
+</span></span><span style="display:flex;"><span>cd hello <span style="color:#75715e">#在終端機切到此資料夾</span>
+</span></span><span style="display:flex;"><span>pwd <span style="color:#75715e">#確認輸入位置沒錯</span>
+</span></span><span style="display:flex;"><span>poetry init <span style="color:#75715e">#載入虛擬環境，一路按Enter，結束會多一個pyproject.toml</span>
+</span></span><span style="display:flex;"><span>poetry install <span style="color:#75715e">#創一個.venv資料夾</span>
+</span></span></code></pre></div><p>啟用虛擬環境及其他指令，輸入以下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">、</span>poetry shell <span style="color:#75715e">#先切換到虛擬目錄裡面，在poetry執行</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span><span style="color:#960050;background-color:#1e0010">、</span>poetry add requests <span style="color:#75715e">#安裝套件，例如套件名稱為requests</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">、</span>poetry remove requests <span style="color:#75715e">#移除上面套件，或是可以刪掉資料夾</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">、</span>pip list <span style="color:#75715e">#看內容</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#960050;background-color:#1e0010">、</span>poetry show <span style="color:#75715e">#可以看裝的套件及版本資訊（較詳細）</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">、</span>poetry show <span style="color:#f92672">--</span>tree <span style="color:#75715e">#看相異性及套件細節</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">、</span>poetry add pre<span style="color:#f92672">-</span>commit <span style="color:#f92672">--</span>group dev <span style="color:#75715e">#裝到不同群組裡佈置時使用</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">8</span><span style="color:#960050;background-color:#1e0010">、</span>poetry env info <span style="color:#75715e">#看poetry位置裝到哪</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">、</span>poetry env remove 位置 <span style="color:#75715e">#刪除指定位置虛擬環境</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">10</span><span style="color:#960050;background-color:#1e0010">、</span>poetry cofing <span style="color:#f92672">--</span>list <span style="color:#75715e">#檢查內容</span>
+</span></span></code></pre></div><h3 style="">十、語意化版本</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#e6db74">&#34;^5.0.3&#34;</span>  <span style="color:#75715e">#^是中間數字0有跳動，會自動抓到新版本，是部分更動，升級中間的版本</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;~5.0.3&#34;</span>  <span style="color:#75715e">#~是3有跳動，只裝這個後面的，算是小地方更動</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&gt;=5.0.3&#34;</span> <span style="color:#75715e">#只要大於等於這個版本就安裝</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;==5.0.3&#34;</span> <span style="color:#75715e">#不升級，這個就好！</span>
+</span></span></code></pre></div><ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">
