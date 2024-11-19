@@ -41,7 +41,7 @@
       <link>http://localhost:1313/doudouu0504blog/posts/my-first-post/</link>
       <pubDate>Sun, 17 Nov 2024 17:46:17 +0800</pubDate>
       <guid>http://localhost:1313/doudouu0504blog/posts/my-first-post/</guid>
-      <description>&lt;p&gt;再次測試 我很棒&#xA;&lt;img src=&#34;https://fakeimg.pl/350x200/?text=Hello&#34; alt=&#34;替代文字&#34; width=&#34;500&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;再次測試 我很棒&#xA;&lt;img src=&#34;http://localhost:1313/doudouu0504blog/doudouu0504blog/images/forest.jpg&#34; alt=&#34;Forest&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

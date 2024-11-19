@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "小瑜的部落格"
 theme = "ananke"
 
+
+
 [markup] #這個是處理html的內容
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -26,3 +28,7 @@ theme = "ananke"
     url = "/"
     weight = 4
 
+
+
+[params]
+  customCSS = ["/css/custom.css"]

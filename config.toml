@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "小瑜的部落格"
 theme = "ananke"
 
+<head>
+    <link rel="stylesheet" href="{{ "/images/style.css" | relURL }}">
+</head>
+
+
 [markup] #這個是處理html的內容
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -25,6 +30,7 @@ theme = "ananke"
     name = "Home"
     url = "/"
     weight = 4
+
 
 
 
