@@ -5,9 +5,9 @@ title = 'about this blog'
 +++
 
 <h1 style="color:#9B90C2"><em>hi！我是小瑜</em></h1>
-<img src="https://i.ibb.co/K6TNtY5/20211002-DOU02625.jpg" alt="me" width="400">
+<img src="/doudouu0504blog/images/me.jpg" alt="me" width="500px">
 <h3 style="color:#91B493"><strong>歡迎來到我的部落格◍•ᴗ•◍ </strong></h3>
-<p>這邊主要分享一些旅遊、美食、網頁學習等內容，歡迎找我合作！</p>
+<p>這邊主要分享一些攝影、旅遊、網頁學習等內容，歡迎找我合作！</p>
 <p style="color:#9B90C2 ; text-decoration:underline;" ><a href="#me"><em>以下是我的簡介</em></a></p>
 <!--more-->
 <br>

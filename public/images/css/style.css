@@ -1,6 +1,6 @@
 /*更改背景圖片*/
 .bg-black {
-  background-image: url("doudouu0504blog/images/forest.jpg");
+  background-image: url("/doudouu0504blog/images/forest.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
