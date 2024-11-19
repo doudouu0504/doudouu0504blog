@@ -15,15 +15,15 @@ theme = "ananke"
       
 [menu] #這個是navbar的連結
   [[menu.main]]
-    name = "Poto Profile"
+    name = "Profile"
     url = "/profile/"
     weight = 1
   [[menu.main]]
-    name = "Software"
+    name = "posts"
     url = "/posts/"
     weight = 2
     [[menu.main]]
-    name = "AboutMe"
+    name = "about"
     url = "/about/"
     weight = 3
   [[menu.main]]
