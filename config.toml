@@ -33,5 +33,3 @@ theme = "ananke"
 
 
 
-[params]
-customCSS = ["/static/images/css/style.css"]

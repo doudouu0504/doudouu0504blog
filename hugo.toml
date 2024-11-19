@@ -29,5 +29,3 @@ theme = "ananke"
     weight = 4
 
 
-[params]
-customCSS = ["/static/images/css/style.css"]
